@@ -70,9 +70,6 @@ With this known, we can use regression evaluation metrics to evaluate our time s
 
 The main thing we will be evaluating is: **how do our model's predictions (`y_pred`) compare against the actual values (`y_true` or *ground truth values*)**? 
 
-> 📖 **Resource:** We're going to be using several metrics to evaluate our different model's time series forecast accuracy. Many of them are sourced and explained mathematically and conceptually in [Forecasting: Principles and Practice chapter 5.8](https://otexts.com/fpp3/accuracy.html), I'd recommend reading through here for a more in-depth overview of what we're going to practice.
-
-For all of the following metrics, **lower is better** (for example an MAE of 0 is better than an MAE 100).
 
 ### Scale-dependent errors
 
