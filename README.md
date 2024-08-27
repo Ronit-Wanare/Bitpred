@@ -1,8 +1,7 @@
-# 10. Milestone Project 3: Time series forecasting in TensorFlow 
+#  Time series forecasting 
 
-The goal of this notebook is to get you familiar with working with time series data.
 
-## What is a time series problem?
+
 Time series problems deal with data over time.
 Such as, the number of staff members in a company over 10-years, sales of computers for the past 5-years, electricity usage for the past 50-years.
 The timeline can be short (seconds/minutes) or long (years/decades). And the problems you might investigate using can usually be broken down into two categories.
@@ -128,10 +127,6 @@ We're not going to go through all of the details in the paper, instead we're goi
 ![image](https://github.com/Ronit-Wanare/Bitpred/assets/85942512/967e1407-c179-4cef-9523-259bb4d2d51d)
 
 ### Building, compiling and fitting the N-BEATS algorithm 
-
-Okay, we've finally got all of the pieces of the puzzle ready for building and training the N-BEATS algorithm.
-
-We'll do so by going through the following:
 
 1. Setup an instance of the N-BEATS block layer using `NBeatsBlock` (this'll be the initial block used for the network, the rest will be created as part of stacks)
 2. Create an input layer for the N-BEATS stack (we'll be using the [Keras Functional API](https://www.tensorflow.org/guide/keras/functional) for this)
